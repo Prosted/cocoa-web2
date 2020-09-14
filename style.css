@@ -3,6 +3,7 @@
 @import "var.css";
 @import "css/status-bar.css";
 @import "css/welcome-header.css";
+@import "css/login-form.css";
 
 body {
   font-family: "Open Sans", sans-serif;
