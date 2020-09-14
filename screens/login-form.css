@@ -23,7 +23,6 @@
 }
 
 .login-form input:focus {
-  outline: none;
   border-color: var(--yellow);
 }
 
@@ -36,9 +35,7 @@
 }
 
 .login-form a {
-  text-decoration: none;
   text-align: center;
-  color: inherit;
   font-size: 15px;
   margin-top: 10px;
 }

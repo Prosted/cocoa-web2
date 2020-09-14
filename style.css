@@ -4,10 +4,20 @@
 
 /* components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 /* screens */
 @import "screens/welcome-header.css";
 @import "screens/login-form.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
