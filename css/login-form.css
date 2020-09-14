@@ -7,13 +7,7 @@
 .login-form input {
   padding: 17px 0px;
   border: none;
-  border-bottom: var(--main-border);
   font-size: 17px;
-}
-
-.login-form input:focus {
-  outline: none;
-  border-color: var(--yellow);
 }
 
 .login-form input::placeholder {
@@ -23,17 +17,22 @@
   margin-bottom: 30px;
 }
 
+.login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: var(--yellow);
+}
+
 .login-form input[type="submit"] {
   border-radius: 5px;
   background-color: var(--yellow);
   font-size: 18px;
   cursor: pointer;
-  border-bottom: none;
   margin-bottom: 10px;
-}
-
-.login-form input:not([type="submit"]) {
-  transition: border-color 0.3s ease-in-out;
 }
 
 .login-form a {
