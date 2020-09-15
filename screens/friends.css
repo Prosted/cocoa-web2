@@ -1,6 +1,5 @@
 #friends-display-link {
   display: block;
-  margin-top: 15px;
   margin-bottom: 10px;
   padding: 17px 0px;
   font-size: 17px;
@@ -11,10 +10,6 @@
 #friends-display-link i {
   margin: 0px 5px;
   opacity: 0.4;
-}
-
-.friends-screen {
-  padding: 0px var(--horizontal);
 }
 
 .friends-screen__channel {
