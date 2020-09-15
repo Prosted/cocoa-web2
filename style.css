@@ -9,9 +9,11 @@
 /* screens */
 @import "screens/welcome-header.css";
 @import "screens/login-form.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #2e363e;
 }
 
 input:focus {
