@@ -3,11 +3,27 @@
   display: flex;
   align-items: center;
 }
+.user-component {
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
 
 .user-component__avatar {
   width: 80px;
   height: 80px;
   border-radius: 18px;
+}
+
+.user-component__avatar--xl {
+  width: 90px;
+  height: 90px;
+  border-radius: 35px;
+}
+
+.user-component__avatar--sm {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
 }
 
 .user-component__userdata {
@@ -20,7 +36,20 @@
 }
 
 .user-component__subtitle {
-  opacity: 0.6;
   font-size: 15px;
   margin-top: 8px;
+}
+
+.user-component__subtitle,
+.user-component__column:last-child {
+  opacity: 0.6;
+}
+
+.user-component__column:last-child i {
+  margin-left: 3px;
+}
+
+.user-component__username--not-bold {
+  font-size: 17px;
+  font-weight: 400;
 }
