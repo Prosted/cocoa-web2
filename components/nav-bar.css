@@ -26,12 +26,6 @@
 }
 
 .nav__elipsis-notification {
-  position: absolute;
-  display: block;
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
   top: -10px;
   right: -8px;
 }

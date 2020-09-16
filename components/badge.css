@@ -10,3 +10,12 @@
   color: white;
   font-weight: 600;
 }
+
+.badge--sm {
+  position: absolute;
+  display: block;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
