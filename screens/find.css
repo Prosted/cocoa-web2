@@ -2,3 +2,54 @@
   top: -2px;
   right: -3px;
 }
+
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.find-icons__icon i {
+  font-size: 25px;
+}
+
+.find-icons__icon span {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 15px 0px;
+  margin: 25px 0px;
+}
+
+.recommended-friends span {
+  display: block;
+  text-align: center;
+  margin: 80px 0px;
+  opacity: 0.6;
+}
+
+.recommended-friends__title {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  opacity: 0.6;
+}
