@@ -30,13 +30,13 @@
   border-top: var(--main-border);
   border-bottom: var(--main-border);
   padding: 15px 0px;
-  margin: 17px 0px;
+  margin: 20px 0px;
 }
 
 .recommended-friends span {
   display: block;
   text-align: center;
-  margin: 80px 0px;
+  margin: 72px 0px;
   opacity: 0.6;
 }
 
