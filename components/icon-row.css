@@ -20,3 +20,12 @@
   font-weight: 600;
   margin-top: 15px;
 }
+
+.icon-row__not {
+  justify-content: flex-start;
+  margin-left: 3px;
+}
+
+.icon-row__not .icon-row__icon {
+  margin-right: 63px;
+}
