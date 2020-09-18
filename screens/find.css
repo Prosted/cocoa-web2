@@ -3,29 +3,6 @@
   right: -3px;
 }
 
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.find-icons__icon i {
-  font-size: 25px;
-}
-
-.find-icons__icon span {
-  font-weight: 600;
-  margin-top: 15px;
-}
-
 .recommended-friends {
   border-top: var(--main-border);
   border-bottom: var(--main-border);
@@ -36,7 +13,7 @@
 .recommended-friends span {
   display: block;
   text-align: center;
-  margin: 72px 0px;
+  margin: 77px 0px;
   opacity: 0.6;
 }
 
