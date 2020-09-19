@@ -26,6 +26,6 @@
   margin-left: 3px;
 }
 
-.icon-row__not .icon-row__icon {
-  margin-right: 63px;
+.icon-row__not .icon-row__icon:first-child {
+  margin-right: 65px;
 }
