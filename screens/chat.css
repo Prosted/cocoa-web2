@@ -98,3 +98,73 @@
 .message-me .message-row__time {
   order: 0;
 } */
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.reply__column:first-child {
+  width: 10%;
+}
+
+.reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply input {
+  width: 95%;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 0px 7px;
+}
+
+.reply input::placeholder {
+  font-size: 15px;
+}
+
+.reply i {
+  opacity: 0.7;
+  font-size: 28px;
+}
+
+.reply__column:first-child i {
+  text-align: center;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+}
+
+.reply__column:last-child > i {
+  top: 11px;
+  right: 60px;
+}
+
+.reply__column:last-child button:focus,
+.reply__column:last-child button:active {
+  outline: none;
+}
+
+.reply__column:last-child button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  border: none;
+}
