@@ -39,12 +39,13 @@
 .message-row {
   display: flex;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .message-row img {
   width: 60px;
   height: 60px;
-  border-radius: 15px;
+  border-radius: 18px;
   margin-right: 10px;
 }
 
@@ -72,3 +73,28 @@
   font-size: 16px;
   margin-right: 5px;
 }
+
+.message-me {
+  justify-content: flex-end;
+}
+
+.message-me .message-row__send {
+  flex-direction: row-reverse;
+}
+
+.message-me .message-row__bubble {
+  background-color: var(--yellow);
+  margin-right: 0px;
+  margin-left: 5px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 10px;
+}
+
+/* 아래는 순서를 bubble과 time의 순서를 바꾸는 다른 방법(order을 사용) */
+/* .message-me .message-row__bubble {
+  order: 1;
+}
+
+.message-me .message-row__time {
+  order: 0;
+} */
