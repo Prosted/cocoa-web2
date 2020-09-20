@@ -1,3 +1,36 @@
-#chat-color {
-  background-color: #abc1d1;
+#chat {
+  background-color: var(--chat-bgcolor);
+  height: 1000vh;
+}
+#chat .status-bar {
+  background-color: var(--chat-bgcolor);
+  z-index: 2;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#chat .alt-header {
+  position: fixed;
+  background-color: var(--chat-bgcolor);
+  top: 0;
+  z-index: 1;
+}
+
+#chat .alt-header__column:last-child i {
+  margin-left: 20px;
+}
+
+.main-chat {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-timestamp {
+  color: white;
+  padding: 7px 10px;
+  background-color: #92a4b2;
+  border-radius: 20px;
 }

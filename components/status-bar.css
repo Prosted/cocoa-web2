@@ -27,6 +27,7 @@
   align-items: center;
 }
 
-.status-bar__column:last-child i {
-  margin: 0px 3px;
+.status-bar__column:last-child i,
+.status-bar__column:last-child span {
+  margin-right: 6px;
 }
