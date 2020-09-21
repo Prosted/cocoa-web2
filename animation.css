@@ -69,3 +69,17 @@
 .nav__btn:last-child {
   animation-delay: 0.6s;
 }
+
+/* cog 애니메이션 */
+@keyframes cog-animation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: cog-animation 2s linear infinite;
+}
