@@ -141,3 +141,33 @@
 .chat-timestamp {
   animation: timestamp-fadein-animation 0.7s ease-in-out;
 }
+
+/* reply 애니메이션 */
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .reply__column:last-child i,
+.reply:focus-within .reply__column:last-child button {
+  opacity: 0;
+}
+
+.reply__column:first-child,
+.reply__column:last-child i,
+.reply__column:last-child button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within {
+  transform: translateY(60px);
+}
+
+.reply {
+  transition: all 0.3s ease-in-out;
+}
+
+.reply:focus-within input {
+  width: 91vw;
+  transform: translateX(-55px) translateY(-60px);
+}
+
+.reply__column:last-child input {
+  transition: all 0.3s ease-in-out;
+}
