@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="chat">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock-open"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="far fa-arrow-alt-circle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">SeongChan</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-2x"></i>
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat-timestamp">Tuesday June 30, 2020</div>
+      <div class="message-row">
+        <img src="character/kaonashi.jpg" />
+        <div class="message-row__info">
+          <span class="message-row__author">Kaonashi</span>
+          <div class="message-row__send">
+            <span class="message-row__bubble">Ah...ah....a.......a..</span>
+            <span class="message-row__time">20:13</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-me">
+        <div class="message-row__send">
+          <span class="message-row__bubble">Do you know kimchi?</span>
+          <span class="message-row__time">20:27</span>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button><i class="fas fa-arrow-up fa-lg"></i></button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
