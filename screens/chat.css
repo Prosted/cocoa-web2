@@ -1,6 +1,6 @@
 #chat {
   background-color: var(--chat-bgcolor);
-  height: 1000vh;
+  height: 500vh;
 }
 #chat .status-bar {
   background-color: var(--chat-bgcolor);

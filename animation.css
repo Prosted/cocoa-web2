@@ -124,3 +124,20 @@
   transform: translateX(30px);
   animation-delay: 0.1s;
 }
+
+/* timestamp 애니메이션 */
+
+@keyframes timestamp-fadein-animation {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.chat-timestamp {
+  animation: timestamp-fadein-animation 0.7s ease-in-out;
+}
