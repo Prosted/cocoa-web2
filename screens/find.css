@@ -82,13 +82,13 @@
   color: #ff67c4;
 }
 
-.open-post_column:last-child img {
+.open-post__column:last-child img {
   width: 100px;
   height: 100px;
   border-radius: 10px;
 }
 
-.open-post_column:last-child span {
+.open-post__column:last-child span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,10 +103,10 @@
   right: 5px;
 }
 
-.open-post_column:last-child i {
+.open-post__column:last-child i {
   margin-right: 3px;
 }
 
-.open-post_column:last-child {
+.open-post__column:last-child {
   position: relative;
 }

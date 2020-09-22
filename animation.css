@@ -83,3 +83,23 @@
 .screen-header__icons .fa-cog:hover {
   animation: cog-animation 2s linear infinite;
 }
+
+/* heart bounce 애니메이션 */
+@keyframes heart-bounce {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+    color: red;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+
+.open-post__column:last-child i:hover {
+  will-change: transform;
+  animation: heart-bounce 1s ease-in-out infinite;
+}
