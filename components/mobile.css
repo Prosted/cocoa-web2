@@ -1,0 +1,38 @@
+.only-mobile {
+  z-index: 99;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.screen-rotate {
+  z-index: 98;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+@media screen and (orientation: portrait) {
+  .screen-rotate {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .only-mobile {
+    display: none;
+  }
+}
