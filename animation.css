@@ -103,3 +103,24 @@
   will-change: transform;
   animation: heart-bounce 1s ease-in-out infinite;
 }
+
+/* 채팅 애니메이션 */
+
+@keyframes message-slide-animation {
+  from {
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.message-row {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: message-slide-animation 0.7s ease-in-out forwards;
+}
+
+.message-row:last-child {
+  transform: translateX(30px);
+  animation-delay: 0.1s;
+}
