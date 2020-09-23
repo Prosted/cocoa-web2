@@ -12,6 +12,7 @@
 @import "components/alt-header.css";
 @import "components/mobile.css";
 @import "components/animation.css";
+@import "components/sign-info.css";
 
 /* screens */
 @import "screens/welcome-header.css";
