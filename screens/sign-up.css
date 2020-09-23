@@ -76,7 +76,7 @@
   font-size: 3px;
 }
 
-.login-form input[type="submit"] {
+.sign-button input[type="submit"] {
   font-size: 15px;
   width: 85vw;
 }
