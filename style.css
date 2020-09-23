@@ -21,6 +21,7 @@
 @import "screens/suggestions.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/sign-up.css";
 
 body {
   font-family: "Open Sans", sans-serif;
