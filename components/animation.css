@@ -120,9 +120,8 @@
   animation: message-slide-animation 0.7s ease-in-out forwards;
 }
 
-.message-row:last-child {
+.message-me {
   transform: translateX(30px);
-  animation-delay: 0.1s;
 }
 
 /* timestamp 애니메이션 */
