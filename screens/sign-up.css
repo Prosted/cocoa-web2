@@ -55,7 +55,11 @@
   align-items: center;
   font-size: 13px;
   margin-top: 90px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.sign__information span {
+  margin: 0px 3px;
 }
 
 .bord {
@@ -70,4 +74,9 @@
 
 .sign__company i {
   font-size: 3px;
+}
+
+.login-form input[type="submit"] {
+  font-size: 15px;
+  width: 85vw;
 }
