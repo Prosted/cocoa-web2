@@ -1,5 +1,5 @@
 .only-mobile {
-  z-index: 99;
+  z-index: 98;
   background-color: var(--yellow);
   position: absolute;
   top: 0;
@@ -13,7 +13,7 @@
 }
 
 .screen-rotate {
-  z-index: 98;
+  z-index: 99;
   background-color: var(--yellow);
   position: absolute;
   top: 0;
