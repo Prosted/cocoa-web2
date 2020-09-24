@@ -13,6 +13,8 @@
 @import "components/mobile.css";
 @import "components/animation.css";
 @import "components/sign-info.css";
+@import "components/kakao.css";
+@import "components/service-agree.css";
 
 /* screens */
 @import "screens/welcome-header.css";
@@ -40,4 +42,8 @@ a {
 
 .main-screen {
   padding: 0px var(--horizontal);
+}
+
+.sign-screen {
+  padding: 0px 30px;
 }

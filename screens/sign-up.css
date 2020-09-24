@@ -1,4 +1,4 @@
-#sign-up {
+#sign-height {
   height: 105vh;
 }
 
@@ -7,13 +7,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.sign__title {
-  margin-top: 35px;
-  margin-bottom: 80px;
-  font-size: 30px;
-  font-weight: 600;
 }
 
 .sign__start-title {
@@ -46,6 +39,12 @@
   margin-top: 20px;
   text-decoration: underline;
   font-weight: 600;
+}
+.sign-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sign-button input[type="submit"] {

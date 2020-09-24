@@ -1,7 +1,10 @@
 .sign-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   bottom: -25px;
-  text-align: center;
 }
 
 .sign__information {
