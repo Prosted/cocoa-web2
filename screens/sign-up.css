@@ -1,7 +1,3 @@
-#sign-height {
-  height: 105vh;
-}
-
 .sign {
   display: flex;
   flex-direction: column;

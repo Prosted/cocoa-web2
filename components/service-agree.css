@@ -10,6 +10,13 @@ i {
   margin-bottom: 30px;
 }
 
+.agree-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .service-agreement__all-title {
   font-size: 24px;
   font-weight: 600;
@@ -49,4 +56,9 @@ i {
 
 .service-agreement-individual {
   margin-bottom: 40px;
+}
+
+.service-agreement__all-btn a:focus,
+.indi__btn__column a:focus {
+  color: var(--yellow);
 }
