@@ -1,0 +1,35 @@
+.daum-logo {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+  padding: 20px 0px;
+}
+
+.daum-logo img {
+  width: 150px;
+  height: 100px;
+}
+
+.daum-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.daum-info {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.daum-info__divider {
+  width: 1px;
+  height: 13px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0px 5px;
+}

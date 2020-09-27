@@ -25,6 +25,7 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 @import "screens/sign-up.css";
+@import "screens/daum.css";
 
 body {
   font-family: "Open Sans", sans-serif;
