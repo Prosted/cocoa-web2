@@ -51,3 +51,7 @@
 .sign-button input:nth-child(2) {
   background-color: #f6f6f6;
 }
+
+.sign-button input[name="agree"] {
+  margin-top: -20px;
+}

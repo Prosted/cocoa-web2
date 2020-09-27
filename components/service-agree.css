@@ -63,3 +63,8 @@
 .indi__btn__column a:focus {
   color: var(--yellow);
 }
+
+.indi-btn__para {
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
