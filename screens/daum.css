@@ -2,13 +2,12 @@
   display: flex;
   justify-content: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 100px;
-  padding: 20px 0px;
+  margin-bottom: 60px;
 }
 
 .daum-logo img {
   width: 150px;
-  height: 100px;
+  height: 120px;
 }
 
 .daum-login {
@@ -18,6 +17,41 @@
   justify-content: center;
 }
 
+.daum-login input {
+  width: 300px;
+  height: 50px;
+  padding: 0px 15px;
+  margin-bottom: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.daum-login input[type="text"] {
+  transition: all 0.3s ease-in-out;
+}
+
+.daum-login input[type="text"]:focus {
+  border: 1px solid #5a94fd;
+  background-color: #fafcff;
+}
+
+.daum-login input[type="submit"] {
+  width: 334px;
+  height: 50px;
+  padding: 0px;
+  margin-top: 15px;
+  border: none;
+  background-color: #4d87ef;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.daum-login input::placeholder {
+  opacity: 0.6;
+  font-size: 17px;
+}
+
 .daum-info {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 20px 0px;
@@ -25,11 +59,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 12px;
+  opacity: 0.8;
+}
+.daum-info i {
+  font-size: 5px;
+  margin-right: 3px;
 }
 
 .daum-info__divider {
   width: 1px;
   height: 13px;
   background-color: rgba(0, 0, 0, 0.3);
-  margin: 0px 5px;
+  margin: 0px 15px;
 }
