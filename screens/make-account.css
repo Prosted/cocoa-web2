@@ -25,3 +25,81 @@
   display: flex;
   flex-direction: column;
 }
+
+.make__title {
+  font-size: 21px;
+  margin-top: -25px;
+  font-weight: 600;
+}
+
+.make__id {
+  margin-top: 60px;
+}
+/* make 전용 input css */
+.make-input {
+  position: relative;
+  width: 80vw;
+}
+
+.make-input input {
+  margin-left: -20px;
+}
+
+.make-input input::placeholder {
+  font-size: 16px;
+}
+
+.make__absol-span {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: 600;
+}
+
+.make-input input[type="password"] {
+  margin-bottom: 5px;
+}
+
+.call {
+  left: -15px;
+}
+
+.call i {
+  margin-left: 30px;
+}
+/* end */
+
+.make__alert {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.make__list-text {
+  color: #999999;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.make-section {
+  margin-bottom: 30px;
+}
+
+.make-aside {
+  margin-top: 40px;
+}
+
+.make__send-button {
+  margin: 40px 0px;
+}
+
+.make__send-button input {
+  padding: 10px 30px;
+  border-radius: 40px;
+  border: var(--main-border);
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  cursor: pointer;
+}

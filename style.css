@@ -15,6 +15,7 @@
 @import "components/sign-info.css";
 @import "components/kakao.css";
 @import "components/service-agree.css";
+@import "components/make-text.css";
 
 /* screens */
 @import "screens/welcome-header.css";

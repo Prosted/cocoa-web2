@@ -11,43 +11,55 @@
     <main class="sign make main-screen">
         <h2 class="make__title">카카오계정 정보를 입력해주세요</h2>
         <header class="make__id">
-            <span>카카오계정 이메일</span>
-            <div>
+            <span class="make-text">카카오계정 이메일</span>
+            <div class="login-form make-input">
                 <input type="text" placeholder="이메일 주소 입력">
-                <span>@daum.net</span>
+                <span class="make__absol-span">@daum.net</span>
             </div>
         </header>
-        <div>
-            <ul>
-                <li>- 카카오계정으로 사용할 Daum 이메일을 만들어주세요.</li>
-                <li>- 만약 사용중인 Daum메일이 있다면, Daum아이디로 로그인하여 계정을 가입해주세<br/>요.</li>
+        <div class="make__alert">
+            <ul class="make__list">
+                <li class="make__list-text">카카오계정으로 사용할 Daum 이메일을 만들어주세요.</li>
+                <li class="make__list-text">만약 사용중인 Daum메일이 있다면, Daum아이디로 로그인하여 계정을 가입해주세<br/>요.</li>
             </ul>
         </div>
-        <section>
-            <span>비밀번호</span>
-            <input type="text" placeholder="비밀번호(8~32자리)">
-            <input type="text" placeholder="비밀번호 재입력">
+        <section class="make-section">
+          <span class="make-text">비밀번호</span>
+          <div class="login-form make-input">
+            <input type="password" placeholder="비밀번호(8~32자리)">
+            <input type="password" placeholder="비밀번호 재입력">
+          </div>  
         </section>
-        <article>
-            <span>닉네임<span>
-            <div>
+        <article class="make-article">
+            <span class="make-text">닉네임<span>
+            <div class="login-form make-input">
                 <input type="text" placeholder="닉네임을 입력해주세요.">
-                <span>0/20</span>
+                <span class="make__absol-span">0/20</span>
             </div>
         </article>
-        <aside>
-            <span>전화번호<span>
-            <a href="#">+82<i class="fas fa-chevron-down"></i></a>
-            <input type="text" placeholder="| 전화번호">
+        <aside class="make-aside">
+          <span class="make-text">전화번호<span></span>
+          <div class="login-form make-input">
+              <span class="make__absol-span call">+82<i class="fas fa-chevron-down"></i></span>
+              <input type="text" placeholder="                   | 전화번호">
+          </div>
         </aside>
-        <div><input type="submit" value="인증번호 전송" formaction="#"></div>
+        <div class="make__send-button"><input type="submit" value="인증번호 전송" formaction="#"></div>
         <footer>
-            <span>전화번호<span>
-            <div>
-                <a href="#">+82<i class="fas fa-chevron-down"></i></a>
-                <input type="text" placeholder="| 전화번호">
+            <span class="make-text">생일/성별<span>
+            <div class="login-form make-input">
+                <span class="make__absol-span">연도<i class="fas fa-chevron-down"></i></span>
+                <span class="make__absol-span">월<i class="fas fa-chevron-down"></i></span>
+                <span class="make__absol-span">일<i class="fas fa-chevron-down"></i></span>
+                <div>
+                  <i class="far fa-check-circle fa-lg"></i>
+                  <span class="make__absol-span">음력</span>
+                </div>
+                <input type="text">
             </div>
         </footer>
+
+
         <form method="GET" class="login-form sign-button">
             <input
               type="submit"
