@@ -25,11 +25,13 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.daum-login input[type="text"] {
+.daum-login input[type="text"],
+.daum-login input[type="password"] {
   transition: all 0.3s ease-in-out;
 }
 
-.daum-login input[type="text"]:focus {
+.daum-login input[type="text"]:focus,
+.daum-login input[type="password"]:focus {
   border: 1px solid #5a94fd;
   background-color: #fafcff;
 }
