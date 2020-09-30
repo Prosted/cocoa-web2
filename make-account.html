@@ -45,28 +45,50 @@
           </div>
         </aside>
         <div class="make__send-button"><input type="submit" value="인증번호 전송" formaction="#"></div>
-        <footer>
+        <footer class="make-footer">
             <span class="make-text">생일/성별<span>
             <div class="login-form make-input">
-                <span class="make__absol-span">연도<i class="fas fa-chevron-down"></i></span>
-                <span class="make__absol-span">월<i class="fas fa-chevron-down"></i></span>
-                <span class="make__absol-span">일<i class="fas fa-chevron-down"></i></span>
+                <span class="make__absol-span make-date">연도<i class="fas fa-chevron-down"></i></span>
+                <span class="make__absol-span make-date">월<i class="fas fa-chevron-down"></i></span>
+                <span class="make__absol-span make-date">일<i class="fas fa-chevron-down"></i></span>
                 <div>
-                  <i class="far fa-check-circle fa-lg"></i>
-                  <span class="make__absol-span">음력</span>
+                  <span class="make__absol-span"><i class="far fa-check-circle fa-lg"></i>음력</span>
                 </div>
                 <input type="text">
+            </div>
+            <div class="make-gender">
+              <span><input type="checkbox">선택안함</span>
+              <span><input type="checkbox">남성</span>
+              <span><input type="checkbox">여성</span>
             </div>
         </footer>
 
 
-        <form method="GET" class="login-form sign-button">
+        <form method="GET" class="login-form sign-button make-button">
             <input
               type="submit"
               value="다음"
               formaction="#"
             />
         </form>
+
+        <div class="sign-info make-info">
+          <div class="sign__information">
+            <a href="#"><span>이용약관</span></a>
+            <a href="#"><span class="bord">개인정보 처리방침</span></a>
+            <a href="#"><span>운영정책</span></a>
+            <a href="#"><span>고객센터</span></a>
+            <a href="#"><span>공지사항</span></a>
+            <a href="#"><span>한국어</span></a>
+            <i class="fas fa-chevron-up"></i>
+          </div>
+          <div class="sign__company">
+            <span>Copyright</span>
+            <i class="fab fa-cuttlefish fa-2x"></i>
+            <span class="bord">Kakao corp.</span>
+            <span>All rights reserved.</span>
+          </div>
+        </div>
     </main>
       <script
         src="https://kit.fontawesome.com/6478f529f2.js"
